@@ -15,9 +15,6 @@ Add Lambdatest Credentails details in Config.properties
 To run single test
     $ mvn test -P single
 
-To run parallel test
-    $ mvn test -P parallel
-
 ```
 ### Test Result Setup
 
