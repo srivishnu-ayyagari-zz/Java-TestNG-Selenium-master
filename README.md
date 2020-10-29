@@ -1,21 +1,31 @@
-# Java TestNG Selenium 
+# Welcome to Lambdatest - Java TestNG Selenium 
 
-### Environment Setup
+## Step 1: Configure your settings and required capabilites for your test
 
-Add Lambdatest Credentails details in Config.properties
+For running a test we will need your `username` and `access key` to map with our cloud infrastrure. 
 
-    ```
-    LambdaTest_UserName
-    LambdaTest_AppKey
-    ```
-    
-### Running Tests
+You can find the required credentials here : <https://www.lambdatest.com/capabilities-generator>
 
+### Change the properties 
+
+Add your Lambdatest `username` and `access key` in `Config.properties` file
 ```
-To run single test
-    $ mvn test -P single
-
+ln 9: LambdaTest_UserName=<YOUR LT_USERNAME>
+ln 10: LambdaTest_AppKey=<YOUR LT_ACCESS_KEY>
 ```
-### Test Result Setup
 
-Please navigate to https://automation.lambdatest.com/ page for test result.
+## Step 2: Running Tests
+
+We have preinstalled all the required environment for running the tests. You can now execute the tests in the console by the following commands: 
+
+#### To run single test
+```
+$ mvn test -P single
+```
+## Step 3: Test Results
+
+Once you have completed running the tests you can find the results at : <https://automation.lambdatest.com> with the build name `TestNG` as a prefix. 
+
+For any other quires please connect with us at <support.lambdatest.com>
+
+### Happy testing! :computer:
