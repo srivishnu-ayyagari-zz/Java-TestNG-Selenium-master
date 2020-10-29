@@ -3,6 +3,7 @@
 ### Environment Setup
 
 Add Lambdatest Credentails details in Config.properties
+
     ```
     LambdaTest_UserName
     LambdaTest_AppKey
