@@ -1,3 +1,2 @@
 tasks:
-  - init: maven install
-    command: mvn versions:display-dependency-update
+  - init: mvn versions:display-dependency-update
